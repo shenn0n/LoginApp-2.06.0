@@ -7,15 +7,17 @@
 
 import UIKit
 
-class WelcomeViewController: UIViewController {
+final class WelcomeViewController: UIViewController {
     
     @IBOutlet var welcomeLabel: UILabel!
+    @IBOutlet var nameLabel: UILabel!
     
-    var welcome: String!
+    var user: User!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        welcomeLabel.text = "Welcome " + welcome
+        welcomeLabel.text = "Welcome, \(user.userName)!" 
+        nameLabel.text = "My name is \(user.person.fullName)"
     }
     @IBAction func logOutWasPressed() {
     }

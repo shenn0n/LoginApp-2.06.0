@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		742BA5F12DC95D58002744C2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742BA5F02DC95D58002744C2 /* User.swift */; };
 		74D4734D2DC514DD00A0CBF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D4734C2DC514DD00A0CBF2 /* AppDelegate.swift */; };
 		74D4734F2DC514DD00A0CBF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D4734E2DC514DD00A0CBF2 /* SceneDelegate.swift */; };
 		74D473512DC514DD00A0CBF2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D473502DC514DD00A0CBF2 /* LoginViewController.swift */; };
@@ -14,9 +15,12 @@
 		74D473562DC514DF00A0CBF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74D473552DC514DF00A0CBF2 /* Assets.xcassets */; };
 		74D473592DC514DF00A0CBF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74D473572DC514DF00A0CBF2 /* LaunchScreen.storyboard */; };
 		74D473612DC5467600A0CBF2 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D473602DC5467600A0CBF2 /* WelcomeViewController.swift */; };
+		74FFC56E2DC9FBA2003C941D /* PersonalPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FFC56D2DC9FBA2003C941D /* PersonalPageViewController.swift */; };
+		74FFC5702DC9FBD7003C941D /* PersonalBioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FFC56F2DC9FBD7003C941D /* PersonalBioViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		742BA5F02DC95D58002744C2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		74D473492DC514DD00A0CBF2 /* LoginApp 2.06.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LoginApp 2.06.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74D4734C2DC514DD00A0CBF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74D4734E2DC514DD00A0CBF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +30,8 @@
 		74D473582DC514DF00A0CBF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74D4735A2DC514DF00A0CBF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74D473602DC5467600A0CBF2 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		74FFC56D2DC9FBA2003C941D /* PersonalPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalPageViewController.swift; sourceTree = "<group>"; };
+		74FFC56F2DC9FBD7003C941D /* PersonalBioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalBioViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,7 @@
 		742BA5ED2DC90324002744C2 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				742BA5F02DC95D58002744C2 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -61,6 +68,8 @@
 			children = (
 				74D473502DC514DD00A0CBF2 /* LoginViewController.swift */,
 				74D473602DC5467600A0CBF2 /* WelcomeViewController.swift */,
+				74FFC56D2DC9FBA2003C941D /* PersonalPageViewController.swift */,
+				74FFC56F2DC9FBD7003C941D /* PersonalBioViewController.swift */,
 			);
 			path = ViewContrillers;
 			sourceTree = "<group>";
@@ -174,8 +183,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				74D473512DC514DD00A0CBF2 /* LoginViewController.swift in Sources */,
+				74FFC5702DC9FBD7003C941D /* PersonalBioViewController.swift in Sources */,
 				74D473612DC5467600A0CBF2 /* WelcomeViewController.swift in Sources */,
 				74D4734D2DC514DD00A0CBF2 /* AppDelegate.swift in Sources */,
+				742BA5F12DC95D58002744C2 /* User.swift in Sources */,
+				74FFC56E2DC9FBA2003C941D /* PersonalPageViewController.swift in Sources */,
 				74D4734F2DC514DD00A0CBF2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
